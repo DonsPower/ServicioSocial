@@ -1,0 +1,23 @@
+OPENCV
+SE encontro un archivo XML para la deteccion peatones. puede servir
+https://github.com/opencv/opencv/tree/master/data
+https://docs.opencv.org/master/db/d28/tutorial_cascade_classifier.html
+Solo se modifica el xml y listo.
+
+18/09/2019
+2:14 PM
+Ya se instalo conda y sus paquetes incluyendo opencv numpy
+https://docs.opencv.org/master/d9/df8/tutorial_root.html
+SE obtienen varias pruebas de aquí hay que probar.
+
+Se han probado
+HOG(HIstograma de gradientes orientados)
+SVM (Maquina de soporte vectorial)
+Se probaron como tal estos algoritmos de detección de peatones pero no funciona un 100% ya que se necesitan tener
+en claro a la persona
+NO SOY UN FRACASADO.
+HOG prueba y video no necesitan algo en especifico para copilar.
+Hog solo funciona de frente y cuerpo completo.
+¿Porque no utilizarlo?
+Para muchas personas no es muy recomendable.
+
