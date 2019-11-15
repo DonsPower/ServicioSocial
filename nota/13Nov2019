@@ -1,0 +1,24 @@
+Buscamos modificar para contar las personas que encuentre.
+ 14 de noviembre modificaremos CFG Para ver si podemos reducir tiempos
+
+Prueba 1
+max_batches = 500200
+Detect 5      Time 29.936234 seconds
+Prueba 2
+SE redujo el tiempo, la consecuencia es que la sacrificamos exactitud }
+Detect 2     Time 24.917004 seconds.
+
+
+Nota final
+SE modificaron 3 archivos donde se encuentran la deteccion de los objetos, de donde el .h para comunicar archivos
+y el que muestra los resultados.
+
+Make      ──────── Copilar lo que se modifique
+images.c  ──────── donde tiene la funcion draw_detections al cual hace la deteccion de objetos.
+Detect.c  ──────── Modifica las salidas a mostrar los resultados
+Darknet.h ──────── Cabecera de los archivos, declaracion de las funciones. En pocas palabras comunica los archivos.
+
+Modificando la confianza podemos ser mas presisos. donde 1 es cero presision y 0 es lo maximo
+./darknet detect cfg/yolov3.cfg yolov3.weights data/6.jpg -thresh 0.1
+La prueba es que si me detecta a las dos personas y con 0.25 solo detecta a 1.
+TIempo de ejecucion 96.488399 seconds.
